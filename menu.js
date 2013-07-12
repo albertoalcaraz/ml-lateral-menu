@@ -3,7 +3,7 @@
 angular.module('pitApp')
   .directive('menu', function () {
     return {
-      templateUrl: 'menu/menu.tpl.html',
+      templateUrl: 'bower-components/ml-lateral-menu/menu.tpl.html',
       restrict: 'E',
       link: function postLink(scope, element, attrs) {
           var snapper = new Snap({
