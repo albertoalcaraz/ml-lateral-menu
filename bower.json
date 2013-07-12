@@ -2,6 +2,6 @@
   "name": "ml-lateral-menu",
   "version": "1.0.0",
   "dependencies": {
-    "snapjs": "*"
+    "snapjs": ">=1.0.0"
   }
 }
