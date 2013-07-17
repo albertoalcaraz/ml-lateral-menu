@@ -1,7 +1,6 @@
 'use strict';
 
-angular.module('myApp')
-  .directive('menu', function () {
+myApp.directive('menu', function () {
     return {
       templateUrl: 'bower_components/ml-lateral-menu/menu.tpl.html',
       restrict: 'E',
